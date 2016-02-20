@@ -1,0 +1,200 @@
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:image" content="screenshot.png">
+
+<title>German song with grammatical visualization</title>
+
+<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src="lipsko.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<link rel="stylesheet" href="lipsko.css">
+<link rel="stylesheet" href="third-party/jouele.css">
+<link rel="stylesheet" href="third-party/likely.css">
+
+<script type="text/javascript" src="third-party/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="third-party/jouele.js"></script>
+<script type="text/javascript" src="third-party/likely.js"></script>
+
+<div class="container">
+    <div class="row home">
+        <div class="col-md-6">
+            <div class="player-wrapper">
+                <div style="margin-bottom: 10px;">
+                    <strong>Play the song and follow along, exploring its text, translation and grammar:</strong>
+                </div>
+
+                <a class="jouele" href="music/Ultra-bra--Laulu-marsalkka-Mannerheimista.mp3" >Rammstein + Sharleen Spiteri - Stirb nicht vor mir</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="lipsko-demo" class="row">
+        <div class="col-md-3">
+            <div class="lipsko-source"><strong><span class="lipsko-word" lipsko-id="[1]">Laulu</span> <span class="lipsko-word" lipsko-id="[2]">Marsalkka</span> <span class="lipsko-word" lipsko-id="[3],[manner]">Mannerheimistä</span></strong> 🇫🇮
+
+<span class="lipsko-word" lipsko-id="[4]">Hän</span> <span class="lipsko-word" lipsko-id="[5]">on</span> <span class="lipsko-word" lipsko-id="[6]">nimi</span> <span class="lipsko-word" lipsko-id="[7]">ja</span> <span class="lipsko-word" lipsko-id="[8]">aate</span>
+<span class="lipsko-word" lipsko-id="[7]">ja</span> <span class="lipsko-word" lipsko-id="[10]">neurootiikkojen</span> <span class="lipsko-word" lipsko-id="[11]">hokema</span>
+<span class="lipsko-word" lipsko-id="[12]">suuri</span> <span class="lipsko-word" lipsko-id="[13]">tuote</span> <span class="lipsko-word" lipsko-id="[14],[14nsa]">ajalleen</span>
+<span class="lipsko-word" lipsko-id="[15],[4]">hänestä</span> <span class="lipsko-word" lipsko-id="[16]">on</span> <span class="lipsko-word" lipsko-id="[17]">tuhat</span> <span class="lipsko-word" lipsko-id="[18]">kirjaa</span>
+
+<span class="lipsko-word" lipsko-id="[19]">Olen</span> <span class="lipsko-word" lipsko-id="[19]">lukenut</span> <span class="lipsko-word" lipsko-id="[20],[20si]">muistelmiasi</span>
+<span class="lipsko-word" lipsko-id="[23]">en</span> <span class="lipsko-word" lipsko-id="[24]">ymmärrä</span> <span class="lipsko-word" lipsko-id="[25]">sinua</span> <span class="lipsko-word" lipsko-id="[26]">lainkaan</span>
+<span class="lipsko-word" lipsko-id="[27]">kerrot</span> <span class="lipsko-word" lipsko-id="[28]">sodista</span> <span class="lipsko-word" lipsko-id="[7]">ja</span> <span class="lipsko-word" lipsko-id="[30]">hevosista</span>
+<span class="lipsko-word" lipsko-id="[31],[31si]">vaimostasi</span> <span class="lipsko-word" lipsko-id="[32]">on</span> <span class="lipsko-word" lipsko-id="[33]">kaksi</span> <span class="lipsko-word" lipsko-id="[34]">riviä</span>
+<span class="lipsko-word" lipsko-id="[35],[35si]">lapsistasi</span> <span class="lipsko-word" lipsko-id="[38]">ei</span> <span class="lipsko-word" lipsko-id="[38],[mit]">mitään</span>
+
+<span class="lipsko-word" lipsko-id="[2]">Marsalkka</span> <span class="lipsko-word" lipsko-id="[40],[manner]">Mannerheim</span>
+<span class="lipsko-word" lipsko-id="[41],[41ko]">olitko</span> <span class="lipsko-word" lipsko-id="[42]">sankari</span> <span class="lipsko-word" lipsko-id="[43]">vai</span> <span class="lipsko-word" lipsko-id="[44]">nolla</span>
+<span class="lipsko-word" lipsko-id="[45],[45ko]">oletko</span> <span class="lipsko-word" lipsko-id="[46]">henkilö</span> <span class="lipsko-word" lipsko-id="[43]">vai</span> <span class="lipsko-word" lipsko-id="[48]">tyhjä</span> <span class="lipsko-word" lipsko-id="[49]">toive</span>
+<span class="lipsko-word" lipsko-id="[50],[halu],[50ko]">halusitko</span> <span class="lipsko-word" lipsko-id="[51]">jäykän</span> <span class="lipsko-word" lipsko-id="[52],[52si]">patsaasi</span>
+<span class="lipsko-word" lipsko-id="[7]">ja</span> <span class="lipsko-word" lipsko-id="[54],[54si]">nimeäsi</span> <span class="lipsko-word" lipsko-id="[55]">kantavan</span> <span class="lipsko-word" lipsko-id="[56]">valtakadun</span>
+
+<span class="lipsko-word" lipsko-id="[57]">Tunnistan</span> <span class="lipsko-word" lipsko-id="[58]">tärkeilevän</span> <span class="lipsko-word" lipsko-id="[59],[59si]">äänesi</span>
+<span class="lipsko-word" lipsko-id="[60]">olet</span> <span class="lipsko-word" lipsko-id="[61]">pateettinen</span> <span class="lipsko-word" lipsko-id="[62]">diiva</span>
+<span class="lipsko-word" lipsko-id="[63]">en</span> <span class="lipsko-word" lipsko-id="[64]">tiedä</span> <span class="lipsko-word" lipsko-id="[65],[65ko]">tahdonko</span> <span class="lipsko-word" lipsko-id="[66]">kuulla</span> <span class="lipsko-word" lipsko-id="[80],[mit]">mitään</span>
+<span class="lipsko-word" lipsko-id="[68],[halu]">haluan</span> <span class="lipsko-word" lipsko-id="[64],[69]">tietoa</span> <span class="lipsko-word" lipsko-id="[70]">enkä</span> <span class="lipsko-word" lipsko-id="[71]">draamaa</span>
+<span class="lipsko-word lipsko-editor-word-editing" lipsko-id="[74]">aion</span> <span class="lipsko-word" lipsko-id="[72]">erehtyä</span> <span class="lipsko-word" lipsko-id="[73]">itse</span></div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="lipsko-translation"><strong><span class="lipsko-word" lipsko-id="[1]">Song</span> <span class="lipsko-word" lipsko-id="[3]">of</span> <span class="lipsko-word" lipsko-id="[2]">Marshal</span> <span class="lipsko-word" lipsko-id="[3],[manner]">Mannerheim</span></strong>
+
+<span class="lipsko-word" lipsko-id="[4]">He</span> <span class="lipsko-word" lipsko-id="[5]">is</span> <span class="lipsko-word">a</span> <span class="lipsko-word" lipsko-id="[6]">name</span> <span class="lipsko-word" lipsko-id="[7]">and</span> <span class="lipsko-word" lipsko-id="[8]">ideology</span>
+<span class="lipsko-word" lipsko-id="[7]">and</span> a <span class="lipsko-word" lipsko-id="[11]">mantra</span> <span class="lipsko-word" lipsko-id="[11]">repeated</span> <span class="lipsko-word" lipsko-id="[10]">by</span> <span class="lipsko-word" lipsko-id="[10]">neurotics</span>
+<span class="lipsko-word" lipsko-id="[12]">big</span> <span class="lipsko-word" lipsko-id="[13]">product</span> <span class="lipsko-word" lipsko-id="[14],[14nsa]">for</span> <span class="lipsko-word" lipsko-id="[14],[14nsa]">his</span> <span class="lipsko-word" lipsko-id="[14],[14nsa]">time</span>
+<span class="lipsko-word">there</span> <span class="lipsko-word" lipsko-id="[16]">are</span> <span class="lipsko-word" lipsko-id="[17]">thousand</span> <span class="lipsko-word" lipsko-id="[18]">books</span> <span class="lipsko-word" lipsko-id="[15],[4]">about</span> <span class="lipsko-word" lipsko-id="[15],[4]">him</span>
+
+<span class="lipsko-word" lipsko-id="[19]">I</span> <span class="lipsko-word" lipsko-id="[19]">have</span> <span class="lipsko-word" lipsko-id="[19]">read</span> <span class="lipsko-word" lipsko-id="[20],[20si]">your</span> <span class="lipsko-word" lipsko-id="[20],[20si]">memoirs</span>
+<span class="lipsko-word" lipsko-id="[23]">I</span> <span class="lipsko-word" lipsko-id="[23]">don't</span> <span class="lipsko-word" lipsko-id="[24]">understand</span> <span class="lipsko-word" lipsko-id="[25]">you</span> <span class="lipsko-word" lipsko-id="[26]">at</span> <span class="lipsko-word" lipsko-id="[26]">all</span>
+<span class="lipsko-word" lipsko-id="[27]">you</span> <span class="lipsko-word" lipsko-id="[27]">tell</span> <span class="lipsko-word" lipsko-id="[28]">about</span> <span class="lipsko-word" lipsko-id="[28]">wars</span> <span class="lipsko-word" lipsko-id="[7]">and</span> <span class="lipsko-word" lipsko-id="[30]">horses</span>
+<span class="lipsko-word">there</span> <span class="lipsko-word" lipsko-id="[32]">is</span> <span class="lipsko-word" lipsko-id="[33]">two</span> <span class="lipsko-word" lipsko-id="[34]">lines</span> <span class="lipsko-word" lipsko-id="[31],[31si]">about</span> <span class="lipsko-word" lipsko-id="[31],[31si]">your</span> <span class="lipsko-word" lipsko-id="[31],[31si]">wife</span>
+<span class="lipsko-word" lipsko-id="[38],[mit]">nothing</span> <span class="lipsko-word" lipsko-id="[35],[35si]">about</span> <span class="lipsko-word" lipsko-id="[35],[35si]">your</span> <span class="lipsko-word" lipsko-id="[35],[35si]">children</span>
+
+<span class="lipsko-word" lipsko-id="[2]">Marshal</span> <span class="lipsko-word" lipsko-id="[40],[manner]">Mannerheim</span>
+<span class="lipsko-word" lipsko-id="[41]">were</span> <span class="lipsko-word" lipsko-id="[41]">you</span> <span class="lipsko-word">a</span> <span class="lipsko-word" lipsko-id="[42]">hero</span> <span class="lipsko-word" lipsko-id="[43]">or</span> <span class="lipsko-word" lipsko-id="[44]">zero</span>
+<span class="lipsko-word" lipsko-id="[45]">are</span> <span class="lipsko-word" lipsko-id="[45]">you</span> <span class="lipsko-word">a</span> <span class="lipsko-word" lipsko-id="[46]">person</span> <span class="lipsko-word" lipsko-id="[43]">or</span> <span class="lipsko-word" lipsko-id="[48]">empty</span> <span class="lipsko-word" lipsko-id="[49]">wish</span>
+<span class="lipsko-word" lipsko-id="[50],[halu]">did</span> <span class="lipsko-word" lipsko-id="[50],[halu]">you</span> <span class="lipsko-word" lipsko-id="[50],[halu]">want</span> <span class="lipsko-word" lipsko-id="[52],[52si]">your</span> <span class="lipsko-word" lipsko-id="[51]">harsh</span> <span class="lipsko-word" lipsko-id="[52],[52si]">statue</span>
+<span class="lipsko-word" lipsko-id="[7]">and</span> <span class="lipsko-word">the</span> <span class="lipsko-word" lipsko-id="[56]">street</span> <span class="lipsko-word" lipsko-id="[55]">bearing</span> <span class="lipsko-word" lipsko-id="[54],[54si]">your</span> <span class="lipsko-word" lipsko-id="[54],[54si]">name</span>
+
+<span class="lipsko-word" lipsko-id="[57]">I</span> <span class="lipsko-word" lipsko-id="[57]">recognize</span> <span class="lipsko-word" lipsko-id="[59],[59si]">your</span> <span class="lipsko-word" lipsko-id="[58]">cocky</span> <span class="lipsko-word" lipsko-id="[59],[59si]">voice</span>
+<span class="lipsko-word" lipsko-id="[60]">you</span> <span class="lipsko-word" lipsko-id="[60]">are</span> <span class="lipsko-word">a</span> <span class="lipsko-word" lipsko-id="[61]">pompous</span> <span class="lipsko-word" lipsko-id="[62]">diva</span>
+<span class="lipsko-word" lipsko-id="[63]">I</span> <span class="lipsko-word" lipsko-id="[63]">don't</span> <span class="lipsko-word" lipsko-id="[64]">know</span> <span class="lipsko-word" lipsko-id="[65]">if</span> <span class="lipsko-word" lipsko-id="[65]">I</span> <span class="lipsko-word" lipsko-id="[65]">want</span> <span class="lipsko-word" lipsko-id="[66]">to</span> <span class="lipsko-word" lipsko-id="[66]">hear</span> <span class="lipsko-word" lipsko-id="[80],[mit]">anything</span>
+<span class="lipsko-word" lipsko-id="[68],[halu]">I</span> <span class="lipsko-word" lipsko-id="[68],[halu]">want</span> <span class="lipsko-word" lipsko-id="[64],[69]">knowledge</span> <span class="lipsko-word" lipsko-id="[70]">and</span> <span class="lipsko-word" lipsko-id="[70]">not</span> <span class="lipsko-word" lipsko-id="[71]">drama</span>
+<span class="lipsko-word lipsko-editor-word-editing" lipsko-id="[74]">I</span> <span class="lipsko-word lipsko-editor-word-editing" lipsko-id="[74]">will</span> <span class="lipsko-word" lipsko-id="[72]">make</span> <span class="lipsko-word" lipsko-id="[72]">mistakes</span> <span class="lipsko-word" lipsko-id="[73]">myself</span></div>
+        </div>
+
+        <div class="col-md-3">
+<h2>Present tense - positive</h2>
+            <table>
+<tr><td>minä <span  lipsko-id="[19],[57],[74],[65],[68]">ole<b>n</b></span></td><td> - I am</td></tr>
+<tr><td><span  lipsko-id="[25]">sinä</span> <span lipsko-id="[27],[45],[olet],[60]">ole<b>t</b></span></td><td> - you are</td></tr>
+<tr><td><span  lipsko-id="[4]">hän</span> <span lipsko-id="[5],[16],[32]">on</span></td><td> - he/she is</td></tr>
+            </table>
+
+<h2>Present tense - negative</h2>
+            <table>
+<tr><td><span  lipsko-id="[23],[63],[70]"><b>en</b> ole</span></td><td> - I'm not</td></tr>
+<tr><td><b>et</b> ole</td><td> - you're not</td></tr>
+<tr><td><span  lipsko-id="[38]"><b>ei</b> ole</span></td><td> - he's/she's not</td></tr>
+            </table>
+
+<h2>Past tense</h2>
+            <table>
+<tr><td><span>ol<b>in</b></span></td><td> - I was</td></tr>
+<tr><td><span lipsko-id="[41],[50]">ol<b>it</b></span></td><td> - you were</td></tr>
+<tr><td><span>ol<b>i</b></span></td><td> - he/she was</td></tr>
+            </table>
+
+<h2>Participles</h2>
+            <table>
+<tr><td><span lipsko-id="[66],[72]">luke<b>a</b></span> </td><td> - to read</td></tr>
+<tr><td><span lipsko-id="[55],[58]">luke<b>va</b></span> </td><td> - the one who reads</td></tr>
+<tr><td><span lipsko-id="[19]">luke<b>nut</b></span> </td><td> - the one who read</td></tr>
+<tr><td><span lipsko-id="[11]">luke<b>ma</b></span> </td><td> - the one read (by someone)</td></tr>
+            </table>
+        </div>
+
+        <div class="col-md-3">
+<h2>Declension (shown 5 cases out of 15)</h2>
+            <table>
+<tr><td></td>               <td><i>singular</i></td>     <td><i>plural</i></td></tr>
+<tr><td><i>nominative</i></td>    <td><span lipsko-id="[1],[2],[6],[8],[11],[12],[13],[17],[40],[33],[42],[44],[46],[48],[49],[61],[62],[73]">nimi</span></td>     <td>nime<b>t</b></td></tr>
+<tr><td><i>genitive</i></td>    <td><span lipsko-id="[55],[56],[51],[52],[58],[59]">nime<b>n</b></span></td>     <td><span lipsko-id="[10]">nim<b>ien</b></span></td></tr>
+<tr><td><i>partitive</i></td>    <td><span lipsko-id="[18],[25],[34],[54],[69],[71],[mit]">nime<b>ä</b></span></td>     <td><span lipsko-id="[20]">nim<b>iä</b></span></td></tr>
+<tr><td><i>allative</i></td>    <td><span lipsko-id="[14],[lleen]">nime<b>lle</b></span></td>     <td>nim<b>ille</b></td></tr>
+<tr><td><i>elative</i></td>    <td><span lipsko-id="[3],[15],[31]">nime<b>stä</b></span></td>     <td><span lipsko-id="[28],[30],[35]">nim<b>istä</b></span></td></tr>
+            </table>
+
+<h2>Possessive suffixe</h2>
+            <table>
+<tr><td><span  lipsko-id="[20si],[31si],[35si],[52si],[54si],[59si]">lapsi<b>si</b></span></td><td> - your child</td></tr>
+<tr><td><span  lipsko-id="[14nsa]">lapsi<b>nsa</b></span></td><td> - his/her child</td></tr>
+<tr><td><span  lipsko-id="[14nsa],[lleen]">lapsille<b>en</b></span></td><td> - for his/her child</td></tr>
+            </table>
+
+<h2>Interrogative particle</h2>
+            <table>
+<tr><td><span lipsko-id="[olet]">olet</span> </td><td>- you are</td></tr>
+<tr><td><span lipsko-id="[41ko],[45ko],[50ko],[65ko]">olet<b>ko</b></span> </td><td>- are you?</td></tr>
+            </table>
+        </div>
+    </div>
+
+<!--
+    <div id="lipsko-editor">
+        <div class="row">
+            <div class="col-md-12">
+                <button id="lipsko-editor-start">Start editing from scratch</button>
+                <button id="lipsko-editor-copy">Continue editing markup</button>
+                <br>
+
+                <div class="lipsko-source">
+                </div>
+
+                <div class="lipsko-translation">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <textarea class="lipsko-source-markup" cols="80" rows="40"></textarea>
+
+                <textarea class="lipsko-translation-markup" cols="80" rows="40"></textarea>
+            </div>
+        </div>
+    </div>
+-->
+    <div class="row home">
+        <div class="col-md-6" style="color: #666; margin-top: 20px;">
+<ul style="list-style-type: none; padding-left: 0;">
+    <li><a href="https://en.wikipedia.org/wiki/Ultra_Bra">Wikipedia on Ultra Bra</a>
+    <li><a href="https://en.wikipedia.org/wiki/Carl_Gustaf_Emil_Mannerheim">Wikipedia on Marshal Mannerheim</a>
+    <li><a href="https://en.wikipedia.org/wiki/Finnish_grammar">Wikipedia on Finnish grammar</a></li>
+    <li>&nbsp;</li>
+    <li>Cheers to <a href="https://www.facebook.com/degoiabeira">André Nikulin</a> for proofreading
+    <li><a href="https://twitter.com/vitalypavlenko">Vitaly Pavlenko</a> with love, 2016
+</ul>
+        <div class="likely likely-small" style="margin-top: 20px;">
+            <div class="facebook">Share</div>
+            <div class="twitter" data-via="vitalypavlenko">Tweet</div>
+            <div class="vkontakte">Share</div>
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter35331760 = new Ya.Metrika({ id:35331760, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/35331760" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
